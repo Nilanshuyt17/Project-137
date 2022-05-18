@@ -1,0 +1,37 @@
+body {
+    background-size: cover;
+}
+.heading {
+    width: 100%;
+    font-family: 'Smokum', cursive;
+    margin: 0px;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 3px grey;
+}
+.btn {
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: 'Smokum', cursive;
+    letter-spacing: 3px;
+}
+.copy_right_footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+    font-family: 'Rock 3D', cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+@keyframes example {
+    from{box-shadow: 5px 5px 38px lightblue;}
+    to{box-shadow: 5px 5px 38px lightgreen;}
+}

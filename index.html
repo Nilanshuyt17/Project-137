@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>A.I. Object Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Festive&family=Hurricane&family=Inspiration&family=Palette+Mosaic&family=Rock+3D&family=Smokum&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+    </head>
+    <center>
+        <body background="istockphoto-1093621710-612x612.jpg">
+            <h1 class="btn btn-info heading">A.I. Object Finder
+                <h4>The input name which you'll give should match the names present in coco model then only it will detect</h4>
+            </h1>
+            <br><br>
+            <label>Object name: </label>
+            <br>
+            <input type="text" placeholder="Type your Object" id="object_name">
+            <br>
+            <button class="btn btn-success" onclick="start()">Start</button>
+            <br><br>
+            <h3 id="status" class="btn btn-warning"></h3>
+            <br>
+            <h3 id="object_found" class="btn btn-danger"></h3>
+            <div class="copy_right_footer">
+                Developed By:- Unbelievable Nilanshu
+            </div>
+        </body>
+    </center>
+</html>
